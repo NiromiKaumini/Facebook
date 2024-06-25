@@ -12,7 +12,9 @@
     background: #fff;
     position: fixed;
     z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 .navbar .left{
     display: flex;
     align-items: center;
@@ -60,7 +62,6 @@
     cursor: pointer;
     color: #746e6e;
     margin-left: 2rem;
-    border: 2px;
     padding-left:2rem;
     padding-right: 2rem; 
     padding-top: 2px;
@@ -75,14 +76,75 @@
     display: flex;
     align-items: center;
     margin: 10px;
+    margin-left: 10rem;
+    cursor: pointer;
 }
 .navbar .right #rg{
     width: 35px;
     height: 35px;
     font-size: 25px;
-    margin-left: 2rem;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: #afa6a65b;
+    padding: 5px;
 }
-.navbar .right .pto{
-    width: 90px;
-    height: 90px;
+.navbar .right .pto img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+}
+.navbar .center .home:hover i::after {
+    content: "";
+    position: absolute;
+    left: 31%; /* Start the underline from the middle */
+    transform: translateX(-50%); /* Center the underline */
+    bottom: -1px;
+    width: 8%; /* Adjust width to fit the icon */
+    height: 3px;
+    background-color: rgba(56, 36, 236, 0.966);
+    
+}
+.navbar .center .video:hover i::after {
+    content: "";
+    position: absolute;
+    left: 40%; /* Start the underline from the middle */
+    transform: translateX(-50%); /* Center the underline */
+    bottom: -1px;
+    width: 8%; /* Adjust width to fit the icon */
+    height: 3px;
+    background-color: rgba(56, 36, 236, 0.966);
+    
+}
+.navbar .center .market:hover i::after {
+    content: "";
+    position: absolute;
+    left: 50%; /* Start the underline from the middle */
+    transform: translateX(-50%); /* Center the underline */
+    bottom: -1px;
+    width: 8%; /* Adjust width to fit the icon */
+    height: 3px;
+    background-color: rgba(56, 36, 236, 0.966);
+    
+}
+.navbar .center .groups:hover i::after {
+    content: "";
+    position: absolute;
+    left: 60%; /* Start the underline from the middle */
+    transform: translateX(-50%); /* Center the underline */
+    bottom: -1px;
+    width: 8%; /* Adjust width to fit the icon */
+    height: 3px;
+    background-color: rgba(56, 36, 236, 0.966);
+    
+}
+.navbar .center .gaming:hover i::after {
+    content: "";
+    position: absolute;
+    left: 70%; /* Start the underline from the middle */
+    transform: translateX(-50%); /* Center the underline */
+    bottom: -1px;
+    width: 8%; /* Adjust width to fit the icon */
+    height: 3px;
+    background-color: rgba(56, 36, 236, 0.966);
+    
 }
