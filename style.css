@@ -5,6 +5,7 @@
     font-family: sans-serif;
 }
 .navbar{
+    top: 0;
     width: 100%;
     height: 60px;
     display: flex;
@@ -147,4 +148,90 @@
     height: 3px;
     background-color: rgba(56, 36, 236, 0.966);
     
+}
+
+/*--------------main-------------------------------------------------------------------------------------------------*/
+
+.main{
+    display: flex;
+    background-color: #f5f5f5;
+    margin-top: 60px;
+}
+.main .left{
+    width: 23%;
+    height: 92vh;
+    overflow: hidden;
+    overflow-y:scroll;
+    background: #f5f5f5;
+    position: fixed;
+    padding: 20px 6px 10px 10px;
+}
+.main .left:hover:-webkit-scrollbar-thumb{
+    background: #cccccc;
+}
+.main .left::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background: #f5f5f5;
+}
+.main .left .up .img{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.main .left .up .img:hover{
+    background: #e3e3e3;
+}
+.main .left .up .img img{
+    width: 50px;
+    height: 50x;
+    padding: 8px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+.main .left .up .img p{
+    font-size: 13px;
+}
+.main .left hr{
+    width: 100%;
+    height: 1px;
+    background: #cccccc;
+    margin: 10px 0;
+}
+.main .down{
+    align-items: center;
+    
+}
+.main .down .img{
+    display: flex;
+}
+.main .down .img img{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+
+}
+.main .down .img p{
+    font-size: 14px;
+    padding-top: 15px;
+}
+.main .down h2{
+    color: #685c5c;
+    font-size: 16px;
+}
+.main .down h3{
+    color: #2e1adf;
+    font-size: 12px;
+    float: right;
+    margin-top: -10px;
+    opacity: 0;
+    cursor: pointer;
+}
+.main .down h3:hover{
+    opacity: 1;
+}
+.main .down .img:hover{
+    background-color:#e3e3e3;
+    ;
 }
