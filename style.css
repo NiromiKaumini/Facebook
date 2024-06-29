@@ -199,9 +199,16 @@
     background: #cccccc;
     margin: 10px 0;
 }
+.main .down h3{
+    color: #2e1adf;
+    font-size: 12px;
+    float: right;
+    margin-top: -16px;
+    padding: 10px;
+    opacity: 0;
+}
 .main .down{
     align-items: center;
-    
 }
 .main .down .img{
     display: flex;
@@ -220,18 +227,284 @@
     color: #685c5c;
     font-size: 16px;
 }
-.main .down h3{
-    color: #2e1adf;
-    font-size: 12px;
-    float: right;
-    margin-top: -10px;
-    opacity: 0;
-    cursor: pointer;
-}
-.main .down h3:hover{
+
+.main .down:hover h3{
     opacity: 1;
 }
 .main .down .img:hover{
     background-color:#e3e3e3;
-    ;
+   
+}
+
+
+.main .center{
+    width: 50%;
+    height: auto;
+    background: #f5f5f5;
+    margin-left: 25%;
+    padding: 20px 20px 0 20px;
+}
+.main .center::-webkit-scrollbar{
+    width: 0;
+}
+.main .center .top_box{
+    width: 100%;
+    height: 260px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+.main .center .top_box .story{
+    width: 135px;
+    height: 250px;
+    overflow: hidden;
+    margin: 0 auto;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.main .center .top_box .story img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.main .center .top_box .story.story_box{
+    width: 100%;
+    height: 60px;
+    background: #ffffff;
+    position: relative;
+    bottom: 50px;
+    cursor: pointer;
+}
+.main .center .top_box .story .story_box img{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    bottom: 4.5rem;
+    border-radius: 50%;
+    z-index: 200;
+    border: #ffffff;
+    border-width: 1rem;
+    border: 2px solid #ffffff;
+}
+.main .center .top_box .story .story_box p{
+    width: 100%;
+    height: 6rem;
+    background-color: #ffffff;
+    display: flex;
+    position: relative;
+    bottom: 5rem;
+    padding: 20px;
+    margin-top: -0.7rem;
+    z-index: 100;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    justify-content: center;   
+}
+.main .center .top_box .story1{
+    width: 135px;
+    height: 250px;
+    overflow: hidden;
+    margin: 0 auto;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.main .center .top_box .story1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+}
+.main .center .top_box .story1 .story_box{
+    width: 100%;
+    height: 60px;
+    position: relative;
+    bottom: 50px;
+    cursor: pointer;
+}
+.main .center .top_box .story1 .story_box img{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    margin: 10px;
+    position: relative;
+    border-radius: 50%;
+    z-index: 200;
+    bottom: 13rem;
+    border: 4px solid #45abff;
+}
+.main .center .top_box .story1 .story_box p{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    position: relative;
+    bottom: 5rem;
+    padding: 20px;
+    margin-top: 2.4rem;
+    z-index: 100;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    justify-content: center; 
+    color: #ffffff; 
+    font-weight: bold;
+}
+
+.main .center .center_box{
+    width: 33rem;
+    height: auto;
+    border-radius: 7px;
+    background: #ffffff;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px ;
+    align-content: center;
+    margin-left: 1.8rem;
+}
+.main .center .center_box .top img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 5px;
+    position: fixed;
+}
+.main .center .center_box .top input{
+    width: 80%;
+    height: 35px;
+    border-radius: 30px;
+    font-size: 17px;
+    float: inline-start;
+    margin: 15px;
+    margin-right: 40px;
+    position: relative;
+    float: right;
+    outline: none;
+    border: 0;
+    background: #f8f5f5;
+}
+.main .center .center_box .top input:hover{
+    background: #e3e3e3;
+}
+.main .center .center_box hr{
+    width: 90%;
+    height: 1px;
+    background: #cccccc;
+    border: 0;
+    margin: 10px;
+    align-items: center;
+}
+.main .center .center_box .bottm{
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 5px auto;
+}
+.main .center .center_box .bottm .icon{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.main .center .center_box .bottm .icon i{
+    font-size: 25px;
+    padding: 10px;
+}
+.main .center .center_box .bottm .icon p{
+    color: #9b9494;
+}
+.main .center .center_box .bottm .icon:nth-child(1) i {
+    color: red;
+}
+
+.main .center .center_box .bottm .icon:nth-child(2) i {
+    color: green;
+}
+
+.main .center .center_box .bottm .icon:nth-child(3) i {
+    color: yellow;
+}
+.main .center .center_box .bottm .icon:hover{
+    background: #dddada94;
+}/*
+
+}
+.main .center .post .frirndim_nm{
+    display: flex;
+    align-items: center; 
+}
+.main .center .post .frirndim_nm img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.main .center .post .frirndim_nm .f_name{
+    cursor: pointer;
+    font-weight: bold;
+}
+.main .center .post .frirndim_nm .f_time{
+    margin-top: 4rem;
+    float:left;
+} */
+
+.main .center .post {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    width: 33rem;
+    height: auto;
+    margin-left: 1.8rem;
+    background-color: #fff;
+}
+
+.post_top {
+    display: flex;
+    flex-direction: column;
+}
+
+.frirndim_nm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f_name {
+    display: flex;
+    align-items: center;
+}
+
+.f_name img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.f_time {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+}
+
+.f_time i {
+    margin-left: 5px;
+}
+
+.f_icon {
+    display: flex;
+    gap: 10px;
+    color: #888;
+}
+
+.coment {
+    margin-top: 10px;
+    color: #333;
 }
