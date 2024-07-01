@@ -432,79 +432,55 @@
 }
 .main .center .center_box .bottm .icon:hover{
     background: #dddada94;
-}/*
-
 }
-.main .center .post .frirndim_nm{
-    display: flex;
-    align-items: center; 
-}
-.main .center .post .frirndim_nm img{
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-.main .center .post .frirndim_nm .f_name{
-    cursor: pointer;
-    font-weight: bold;
-}
-.main .center .post .frirndim_nm .f_time{
-    margin-top: 4rem;
-    float:left;
-} */
-
-.main .center .post {
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 16px;
+.main .center .post{
+    margin: 10px 0;
     width: 33rem;
     height: auto;
-    margin-left: 1.8rem;
-    background-color: #fff;
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.2);
+    margin-left: 1.7rem;
 }
-
-.post_top {
-    display: flex;
-    flex-direction: column;
+.main .center .post img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
 }
-
-.frirndim_nm {
+.main .center .post .post_top{
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    align-items: center;
+    margin-bottom: 15px;
 }
 
-.f_name {
+.main .center .post .frirndim_nm{
     display: flex;
     align-items: center;
 }
-
-.f_name img {
-    width: 40px;
-    height: 40px;
+.main .center .post .frirndim_nm img{
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
-    margin-right: 10px;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 8px;
+    cursor: pointer;
 }
-
-.f_time {
-    display: flex;
-    align-items: center;
+.main .center .post .frirndim_nm .f_name{
+    font-weight: bold;
+    cursor: pointer;
+}
+.main .center .post .frirndim_nm .f_name:hover{
+    text-decoration: underline;
+}
+.main .center .post .frirndim_nm .f_time {
     font-size: 14px;
-    color: #555;
-}
-
-.f_time i {
-    margin-left: 5px;
-}
-
-.f_icon {
-    display: flex;
-    gap: 10px;
-    color: #888;
-}
-
-.coment {
-    margin-top: 10px;
-    color: #333;
+    color: #919191;
+    margin: 3px 0;
+} 
+.main .center .post .f_time p{
 }
