@@ -508,6 +508,25 @@
 .main .center .post .infor .emoji img{
     width: 35px;
     height: 35px;
+    margin: -8px;
+}
+.main .center .post .infor .emoji p{
+    margin-left: 10px;
+    font-size: 14px;
+}
+.main .center .post .infor .emoji .comment{
+    display: flex;
+    margin-left: 5rem;
+}
+.main .center .post .infor .emoji .comment i{
+    padding: 5px;
+    font-size: 18px;
+    color: #685c5c;
+    cursor: pointer;
+}
+.main .center .post .infor .emoji .comment p{
+    padding: 5px;
+    font-size: 15px;
 }
 .main .center .post .infor .react_icon{
     display: flex;
@@ -527,4 +546,79 @@
     font-size: 15px;
     box-sizing: border-box;
    
+}
+.main .center .post .infor .comment_botom .comment_1 img{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+.main .center .post .infor .comment_botom .comment_1{
+    display: flex;
+}
+.main .center .post .infor .comment_botom .comment_1 .com{
+    margin: 15px 10px;
+    background-color:#f8f5f5;
+    padding:10px;
+    padding-right: 19rem;
+    border-radius: 20px;
+}
+.main .center .post .infor .comment_botom .comment_1 .com1{
+    font-size: 12px;
+}
+.main .center .post .infor .comment_botom .comment_1 .com2{
+    margin-left: 1rem;
+    padding: 5px;
+}
+.main .center .post .infor .comment_botom .com_react{
+  display: flex; 
+  margin-top: -15px;
+  align-items: center;
+  position: relative;
+  padding-left: 65px;
+  cursor: pointer;
+}
+.main .center .post .infor .comment_botom .com_react p{
+    padding: 10px;
+    font-size: 13px;
+    color: #685c5c;
+}
+.main .center .post .infor .comment_botom .com_react p:hover{
+    text-decoration: underline;
+}
+.main .center .post .infor .comment_botom .v_com{
+    padding-top: 8px;
+    cursor: pointer; 
+    color: #685c5c;
+}
+.main .center .post .infor .comment_botom .y_com{
+    display: flex;
+}
+.main .center .post .infor .comment_botom .y_com img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.main .center .post .infor .comment_botom .y_com input{
+    padding-right: 15rem;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #cccccc;
+}
+.main .center .post .infor .comment_botom .y_com i{
+    font-size: 20px;
+    padding: 5px;
+    float: left(2rem);
+    color: #535050;
+}
+.main .center .post .infor .comment_botom .y_com .icon{
+    display: flex;
+    margin-left: -6rem;
+    margin-top: 6px;
+    cursor: pointer;
 }
