@@ -371,7 +371,7 @@
     border-radius: 50%;
     padding: 5px;
     margin: 5px;
-    position: fixed;
+   
 }
 .main .center .center_box .top input{
     width: 80%;
@@ -386,6 +386,7 @@
     outline: none;
     border: 0;
     background: #f8f5f5;
+    margin-top: -3rem;
 }
 .main .center .center_box .top input:hover{
     background: #e3e3e3;
@@ -478,9 +479,52 @@
     text-decoration: underline;
 }
 .main .center .post .frirndim_nm .f_time {
-    font-size: 14px;
+    font-size: 12px;
     color: #919191;
     margin: 3px 0;
 } 
-.main .center .post .f_time p{
+.main .center .post .frirndim_nm .f_time i{
+    padding: 5px;
+}
+.main .center .post .f_icon{
+   margin-left: 16rem;
+   cursor: pointer;
+}
+.main .center .post .f_icon i{
+    padding: 5px;
+    color: #535050;
+    font-size: 20px;
+    border-radius: 50%;
+}
+.main .center .post .f_icon i:hover{
+    background: #e7e4e4;
+}
+.main .center .post img{
+    padding: 5px;
+}
+.main .center .post .infor .emoji{
+    display: flex;
+}
+.main .center .post .infor .emoji img{
+    width: 35px;
+    height: 35px;
+}
+.main .center .post .infor .react_icon{
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+    margin: 10px;
+    cursor: pointer;
+}
+.main .center .post .infor .react_icon i{
+    margin-left: 1rem;
+    font-size: 20px;
+    padding: 4px;
+    color: #535050;
+}
+.main .center .post .infor .react_icon p{
+    margin-right: 20px;
+    font-size: 15px;
+    box-sizing: border-box;
+   
 }
