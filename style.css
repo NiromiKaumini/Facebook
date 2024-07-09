@@ -622,3 +622,158 @@
     margin-top: 6px;
     cursor: pointer;
 }
+/*--------------------------------------------------------------------------------------------------------*/
+
+.right{
+    background: #f5f5f5;
+    margin-top: 30px;
+}
+.right .friend{
+  position: fixed;
+  overflow: hidden;
+  overflow-y: scroll;
+  width: 20.4rem;
+  height: 92vh;
+  background: #f5f5f5;
+  scrollbar-color: #f5f5f5;
+}
+
+.right .friend .top{
+    display: flex;
+}
+.right .friend .top label{
+    font-size: 16px;
+    color: #535050;
+    font-weight: bold;
+    padding: 6px;
+}
+.right .friend .top p{
+    font-size: 16px;
+    color: #45abff;
+    margin-top: 4px;
+    margin-left: 7rem;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.right .friend .top p:hover{
+    background: #eeeaea;
+}
+.right .friend .profile{
+    display: flex;
+    cursor: pointer;
+}
+.right .friend .profile img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 5px;
+}
+.right .friend .profile p{
+    padding: 5px;
+    margin-top: 10px;
+    font-weight: 10px;
+}
+.right .friend .profile .time{
+    color: #2a91e6;
+    font-size: 12px;
+    margin-left: 5rem;
+}
+.right .friend .mutual{
+    display: flex;
+    margin-top: -20px;
+    margin-left: 70px;
+}
+.right .friend .mutual img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: -4px;
+}
+.right .friend .mutual p{
+    font-size: 13px;
+    color: #9b9494;
+    margin-left: 10px;
+}
+.right .friend button{
+    margin-top: 15px;
+    padding: 10px;
+    margin-left: 5px;
+    font-size: 16px;
+    padding-left: 23px;
+    padding-right: 23px;
+    border-radius: 10px;
+    border: none;
+    background-color: #dbd6d6;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.right .friend .confirm{
+    background-color:#167fd4;
+    color: #ffffff;
+    margin-left: 30px;
+}
+.right .birthday{
+    margin: 10px;
+}
+.right .birthday .birthday_one{ 
+    display: flex;
+}
+
+.right .birthday label{
+    font-size: 16px;
+    color: #535050;
+    font-weight: bold;
+    padding: 10px;
+}
+.right .birthday .birthday_one img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 10px;
+}
+.right .birthday .birthday_one p{
+    margin: 10px;
+
+}
+.right .contact .contact_top{
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.right .contact .contact_top label{
+    font-size: 16px;
+    color: #535050;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+.right .contact .contact_top i{
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 50%;
+    float: inline-end;
+    cursor: pointer;
+}
+.right .contact .contact_top i:hover{
+    background: #d8d1d1;
+}
+.right .contact .contact-prof{
+    display: flex;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.right .contact .contact-prof:hover{
+    background: #c5c1c1;
+}
+.right .contact .contact-prof img{
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.right .contact .contact-prof p{
+    margin-top: 20px;
+}
